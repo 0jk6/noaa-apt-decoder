@@ -6,15 +6,22 @@ Demodulating this FM wave will give an output of audio signal with a frequency o
 These values can be stored in NumPy array and can be plotted as an image.
 
 Here's an example image:
-![example image](https://github.com/jch15/APT-Decoder/blob/main/img/noaa1.png)
+![example image](https://github.com/jch15/APT-Decoder/blob/main/noaa1.png)
 
 # How to run?
 Make sure that you install `numpy`, `scipy`, `matplotlib` using the following commands
 
 `pip install numpy`
+
 `pip install scipy`
+
 `pip install matplotlib`
 
 Once they are installed, run the program using `python run.py`, it will ask for the WAV file and normalization values. Enter them and it will show you the image as a plot.
 
 I've included `noaa1.wav` file, you can use it see the image sent by the satellite.
+
+# References
+https://noaasis.noaa.gov/NOAASIS/pubs/Users_Guide-Building_Receive_Stations_March_2009.pdf
+
+https://en.wikipedia.org/wiki/Automatic_picture_transmission
