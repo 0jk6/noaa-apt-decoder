@@ -8,6 +8,9 @@ These values can be stored in NumPy array and can be plotted as an image.
 Here's an example image:
 ![example image](https://github.com/jch15/APT-Decoder/blob/main/noaa1.png)
 
+
+![example image 2](https://github.com/jch15/APT-Decoder/blob/main/noaa2.png)
+
 # How to run?
 Make sure that you install `numpy`, `scipy`, `matplotlib` using the following commands
 
