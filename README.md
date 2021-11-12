@@ -24,6 +24,8 @@ Once they are installed, run the program using `python run.py`, it will ask for 
 
 I've included `noaa1.wav` file, you can use it see the image sent by the satellite.
 
+NOTE: This script does not use sync bits and hence the images look bent. ~~I was lazy~~(honestly, don't know how to decode sync bits from the signal) ~~to implement that.~~ Feel free to contribute.
+
 # References
 https://noaasis.noaa.gov/NOAASIS/pubs/Users_Guide-Building_Receive_Stations_March_2009.pdf
 
